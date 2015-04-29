@@ -13,7 +13,7 @@ A lot of work has already gone into Telescope, but it needs that final push to r
 
 So if you'd like to be part of the project, please check out the [roadmap](https://trello.com/b/oLMMqjVL/telescope-roadmap) and [issues](https://github.com/TelescopeJS/Telescope/issues) to see if there's anything you can help with.
 
-### Learn More
+### Learn More  
 
 - [Telescope Homepage](http://telesc.pe)
 - [Telescope Demo](http://demo2.telescopeapp.org)
