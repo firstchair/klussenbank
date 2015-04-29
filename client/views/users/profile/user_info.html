@@ -28,6 +28,18 @@
           <td><a href="http://twitter.com/{{getTwitterName}}">{{getTwitterName}}</a></td>
         </tr>
       {{/if}}
+      {{#if getDribbbleName}}
+        <tr>
+          <td>Dribbble: </td>
+          <td><a href="http://dribbble.com/{{getDribbbleName}}">{{getDribbbleName}}</a></td>
+        </tr>
+      {{/if}}
+      {{#if getBehanceName}}
+        <tr>
+          <td>Twitter: </td>
+          <td><a href="http://bahance.com/{{getBehanceName}}">{{getBehanceName}}</a></td>
+        </tr>
+      {{/if}}
       {{#if getGitHubName}}
         <tr>
           <td>{{_ "github"}}:</td>
