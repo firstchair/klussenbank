@@ -110,7 +110,7 @@ TAPi18n._enable({"helper_name":"_","supported_languages":null,"i18n_files_route"
 TAPi18n.languages_names["en"] = ["English","English"];                                                          // 9
 // integrate the fallback language translations                                                                 // 10
 translations = {};                                                                                              // 11
-translations[namespace] = {"manage_static_pages":"Manage static pages"};                                        // 12
+translations[namespace] = {"manage_static_pages":"Beheer statische pagina's"};                                  // 12
 TAPi18n._loadLangFileObject("en", translations);                                                                // 13
                                                                                                                 // 14
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////

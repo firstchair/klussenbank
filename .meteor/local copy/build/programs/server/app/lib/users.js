@@ -58,6 +58,26 @@ getTwitterName = function(user){
   }
   return null;
 };
+getBehanceName = function(user){
+  // return twitter name provided by user, or else the one used for twitter login
+
+  if(checkNested(user, 'profile', 'behance')){
+    return user.profile.behance;
+  }else if(checkNested(user, 'services', 'behance', 'screenName')){
+    return user.services.behance.screenName;
+  }
+  return null;
+};
+getDribbbleName = function(user){
+  // return twitter name provided by user, or else the one used for twitter login
+
+  if(checkNested(user, 'profile', 'dribbble')){
+    return user.profile.dribbble;
+  }else if(checkNested(user, 'services', 'dribbble', 'screenName')){
+    return user.services.dribbble.screenName;
+  }
+  return null;
+};
 getGitHubName = function(user){
   // return twitter name provided by user, or else the one used for twitter login
   if(checkNested(user, 'profile', 'github')){

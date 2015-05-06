@@ -46,7 +46,7 @@
     {
       "type": "prelink",
       "file": "os/packages/telescope-subscribe-to-posts.js",
-      "length": 18675,
+      "length": 18655,
       "offset": 0,
       "servePath": "/packages/telescope-subscribe-to-posts.js",
       "sourceMap": "os/packages/telescope-subscribe-to-posts.js.map"

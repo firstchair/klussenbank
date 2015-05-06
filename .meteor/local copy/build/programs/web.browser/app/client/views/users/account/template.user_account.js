@@ -94,6 +94,30 @@ Template["userAccount"] = new Template("Template.userAccount", (function() {
     }
   }), "\n        "), "\n      "), "\n      ", HTML.DIV({
     "class": "control-group"
+  }, "\n      ", HTML.LABEL(Blaze.View("lookup:_", function() {
+    return Spacebars.mustache(view.lookup("_"), "dribbble_username");
+  })), "\n        ", HTML.DIV({
+    "class": "controls"
+  }, "\n          ", HTML.INPUT({
+    name: "twitter",
+    type: "text",
+    value: function() {
+      return Spacebars.mustache(view.lookup("getDribbble"));
+    }
+  }), "\n        "), "\n      "), "\n      ", HTML.DIV({
+    "class": "control-group"
+  }, "\n      ", HTML.LABEL(Blaze.View("lookup:_", function() {
+    return Spacebars.mustache(view.lookup("_"), "behance_username");
+  })), "\n        ", HTML.DIV({
+    "class": "controls"
+  }, "\n          ", HTML.INPUT({
+    name: "twitter",
+    type: "text",
+    value: function() {
+      return Spacebars.mustache(view.lookup("getBehance"));
+    }
+  }), "\n        "), "\n      "), "\n      ", HTML.DIV({
+    "class": "control-group"
   }, "\n        ", HTML.LABEL(Blaze.View("lookup:_", function() {
     return Spacebars.mustache(view.lookup("_"), "github_username");
   })), "\n        ", HTML.DIV({

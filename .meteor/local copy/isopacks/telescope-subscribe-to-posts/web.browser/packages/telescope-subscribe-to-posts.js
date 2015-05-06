@@ -430,7 +430,7 @@ if (package_name != "project") {                                                
 }                                                                                                             // 7
 // integrate the fallback language translations                                                               // 8
 translations = {};                                                                                            // 9
-translations[namespace] = {"subscribed_posts":"Subscribed Posts","subscribe_to_thread":"Subscribe to comment thread","unsubscribe_from_thread":"Unsubscribe from comment thread"};
+translations[namespace] = {"subscribed_posts":"Projecten die jij volgt","subscribe_to_thread":"Volg project","unsubscribe_from_thread":"Ontvolg dit project"};
 TAPi18n._loadLangFileObject("en", translations);                                                              // 11
 var package_templates = _.difference(_.keys(Template), non_package_templates);                                // 12
                                                                                                               // 13

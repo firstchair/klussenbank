@@ -1128,11 +1128,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/telescope-base.js?14f82b08011a8ebe7e22d6a4cb6e48bccd90bc7a",
+      "url": "/packages/telescope-base.js?511665d12d3e3bfa2ceed75e7193aa1ef4e98bf1",
       "sourceMap": "packages/telescope-base.js.map",
-      "sourceMapUrl": "/packages/14f82b08011a8ebe7e22d6a4cb6e48bccd90bc7a.map",
+      "sourceMapUrl": "/packages/511665d12d3e3bfa2ceed75e7193aa1ef4e98bf1.map",
       "size": 72734,
-      "hash": "14f82b08011a8ebe7e22d6a4cb6e48bccd90bc7a"
+      "hash": "511665d12d3e3bfa2ceed75e7193aa1ef4e98bf1"
     },
     {
       "path": "packages/telescope-datetimepicker.js",
@@ -1205,22 +1205,22 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/telescope-search.js?96b8263aa2399d82f040265fb2b54e92a387c606",
+      "url": "/packages/telescope-search.js?2a8167fc8b9a417a09f90ee9c4fb03ee1f40d4cd",
       "sourceMap": "packages/telescope-search.js.map",
-      "sourceMapUrl": "/packages/96b8263aa2399d82f040265fb2b54e92a387c606.map",
-      "size": 61665,
-      "hash": "96b8263aa2399d82f040265fb2b54e92a387c606"
+      "sourceMapUrl": "/packages/2a8167fc8b9a417a09f90ee9c4fb03ee1f40d4cd.map",
+      "size": 61657,
+      "hash": "2a8167fc8b9a417a09f90ee9c4fb03ee1f40d4cd"
     },
     {
       "path": "packages/telescope-tags.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/telescope-tags.js?b3a037eb5bc5f2f097ae7181096ed81d61b18b6b",
+      "url": "/packages/telescope-tags.js?19bdc667f7e8d8e91a48876f9a3224bc78aea5c4",
       "sourceMap": "packages/telescope-tags.js.map",
-      "sourceMapUrl": "/packages/b3a037eb5bc5f2f097ae7181096ed81d61b18b6b.map",
-      "size": 75809,
-      "hash": "b3a037eb5bc5f2f097ae7181096ed81d61b18b6b"
+      "sourceMapUrl": "/packages/19bdc667f7e8d8e91a48876f9a3224bc78aea5c4.map",
+      "size": 65072,
+      "hash": "19bdc667f7e8d8e91a48876f9a3224bc78aea5c4"
     },
     {
       "path": "packages/telescope-theme-hubble.js",
@@ -1245,28 +1245,6 @@
       "hash": "b28bfa66552712aad7e201ddda343c5341167bc4"
     },
     {
-      "path": "packages/telescope-messages.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/telescope-messages.js?0397bc9ca55138bc6367dbf093e68ac0a3568f03",
-      "sourceMap": "packages/telescope-messages.js.map",
-      "sourceMapUrl": "/packages/0397bc9ca55138bc6367dbf093e68ac0a3568f03.map",
-      "size": 16754,
-      "hash": "0397bc9ca55138bc6367dbf093e68ac0a3568f03"
-    },
-    {
-      "path": "packages/telescope-embedly.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/telescope-embedly.js?bd0eb1951563991094ac9e6a8d36598e48980737",
-      "sourceMap": "packages/telescope-embedly.js.map",
-      "sourceMapUrl": "/packages/bd0eb1951563991094ac9e6a8d36598e48980737.map",
-      "size": 60091,
-      "hash": "bd0eb1951563991094ac9e6a8d36598e48980737"
-    },
-    {
       "path": "packages/miro_mailchimp.js",
       "where": "client",
       "type": "js",
@@ -1276,6 +1254,17 @@
       "sourceMapUrl": "/packages/f78de135717f85edf491cb68d4c853d99fb7cc1c.map",
       "size": 24732,
       "hash": "f78de135717f85edf491cb68d4c853d99fb7cc1c"
+    },
+    {
+      "path": "packages/telescope-messages.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/telescope-messages.js?0397bc9ca55138bc6367dbf093e68ac0a3568f03",
+      "sourceMap": "packages/telescope-messages.js.map",
+      "sourceMapUrl": "/packages/0397bc9ca55138bc6367dbf093e68ac0a3568f03.map",
+      "size": 16754,
+      "hash": "0397bc9ca55138bc6367dbf093e68ac0a3568f03"
     },
     {
       "path": "packages/telescope-newsletter.js",
@@ -1388,17 +1377,6 @@
       "hash": "badf97cb3c578f9bfafb57c10dddba6ffea9a812"
     },
     {
-      "path": "packages/telescope-invites.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/telescope-invites.js?228719bbc3a9fdc4af4ca429acd200ecf35c3ae2",
-      "sourceMap": "packages/telescope-invites.js.map",
-      "sourceMapUrl": "/packages/228719bbc3a9fdc4af4ca429acd200ecf35c3ae2.map",
-      "size": 48058,
-      "hash": "228719bbc3a9fdc4af4ca429acd200ecf35c3ae2"
-    },
-    {
       "path": "packages/telescope-post-by-feed.js",
       "where": "client",
       "type": "js",
@@ -1436,11 +1414,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/telescope-subscribe-to-posts.js?19d3f9805c12016dbbac8538b590b91701f446c6",
+      "url": "/packages/telescope-subscribe-to-posts.js?828f9f54d2448205c72f8baad1ac5899fe9680ab",
       "sourceMap": "packages/telescope-subscribe-to-posts.js.map",
-      "sourceMapUrl": "/packages/19d3f9805c12016dbbac8538b590b91701f446c6.map",
-      "size": 52500,
-      "hash": "19d3f9805c12016dbbac8538b590b91701f446c6"
+      "sourceMapUrl": "/packages/828f9f54d2448205c72f8baad1ac5899fe9680ab.map",
+      "size": 52480,
+      "hash": "828f9f54d2448205c72f8baad1ac5899fe9680ab"
     },
     {
       "path": "packages/telescope-tagline-banner.js",
@@ -1480,11 +1458,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/telescope-pages.js?1e5cec2e0ae31d44fcbf88b0237d63b0d12521b6",
+      "url": "/packages/telescope-pages.js?0dafbd34fac05a5df9fd9b3fcd0582168defa545",
       "sourceMap": "packages/telescope-pages.js.map",
-      "sourceMapUrl": "/packages/1e5cec2e0ae31d44fcbf88b0237d63b0d12521b6.map",
+      "sourceMapUrl": "/packages/0dafbd34fac05a5df9fd9b3fcd0582168defa545.map",
       "size": 43984,
-      "hash": "1e5cec2e0ae31d44fcbf88b0237d63b0d12521b6"
+      "hash": "0dafbd34fac05a5df9fd9b3fcd0582168defa545"
     },
     {
       "path": "packages/pauli_linkedin.js",
@@ -1678,9 +1656,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/posts/modules/template.post_info.js?7e552aa6789cc0b60de25d20497672ad97f4c712",
-      "size": 1384,
-      "hash": "7e552aa6789cc0b60de25d20497672ad97f4c712"
+      "url": "/client/views/posts/modules/template.post_info.js?f4b736ad8e8c877725e1f99cdbd04a81472292c9",
+      "size": 1486,
+      "hash": "f4b736ad8e8c877725e1f99cdbd04a81472292c9"
     },
     {
       "path": "app/client/views/posts/modules/template.post_rank.js",
@@ -1705,18 +1683,18 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/posts/modules/template.post_upvote.js?f74d79875f7a0664e30f1fd4b121fc27f4f9eebe",
-      "size": 1344,
-      "hash": "f74d79875f7a0664e30f1fd4b121fc27f4f9eebe"
+      "url": "/client/views/posts/modules/template.post_upvote.js?0905559512c07ee3dc763ad2e6b7b241aa4777c9",
+      "size": 581,
+      "hash": "0905559512c07ee3dc763ad2e6b7b241aa4777c9"
     },
     {
       "path": "app/client/views/users/account/template.user_account.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/users/account/template.user_account.js?aae8b794579be3fb6fcc089f12fdfd914fe9f7e2",
-      "size": 8848,
-      "hash": "aae8b794579be3fb6fcc089f12fdfd914fe9f7e2"
+      "url": "/client/views/users/account/template.user_account.js?390d04b4002f2978f768529bac2c894bb9d315d1",
+      "size": 9726,
+      "hash": "390d04b4002f2978f768529bac2c894bb9d315d1"
     },
     {
       "path": "app/client/views/users/dashboard/template.users-dashboard.js",
@@ -1795,9 +1773,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/users/profile/template.user_info.js?cdc0e89a480a7fdf49e58365b6a106aa20e323f3",
-      "size": 5245,
-      "hash": "cdc0e89a480a7fdf49e58365b6a106aa20e323f3"
+      "url": "/client/views/users/profile/template.user_info.js?8998a9b39b96e5bccea82c81676dc4b4f11d145a",
+      "size": 6265,
+      "hash": "8998a9b39b96e5bccea82c81676dc4b4f11d145a"
     },
     {
       "path": "app/client/views/users/profile/template.user_posts.js",
@@ -2074,9 +2052,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/posts/template.post_body.js?fbd8d40e80b849f0722e363dfad2e228c75f5598",
-      "size": 363,
-      "hash": "fbd8d40e80b849f0722e363dfad2e228c75f5598"
+      "url": "/client/views/posts/template.post_body.js?97cd7d13d7776f2728dcc09bf7bd9cc6b1400cd2",
+      "size": 2353,
+      "hash": "97cd7d13d7776f2728dcc09bf7bd9cc6b1400cd2"
     },
     {
       "path": "app/client/views/posts/template.post_edit.js",
@@ -2353,9 +2331,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/lib/publications.js?c54f434dde2b9c53c982b9fc9a40dfff96567753",
-      "size": 1439,
-      "hash": "c54f434dde2b9c53c982b9fc9a40dfff96567753"
+      "url": "/lib/publications.js?43e1e23d7275ef56073b790b4f12026f3adb0d4e",
+      "size": 1701,
+      "hash": "43e1e23d7275ef56073b790b4f12026f3adb0d4e"
     },
     {
       "path": "app/lib/scoring.js",
@@ -2371,9 +2349,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/lib/users.js?e698c0d93eb34ad1ef061437e75c85c01b0a842b",
-      "size": 5084,
-      "hash": "e698c0d93eb34ad1ef061437e75c85c01b0a842b"
+      "url": "/lib/users.js?c09929e6a1ebf7b008c6a02bcce0a86f01370d14",
+      "size": 5751,
+      "hash": "c09929e6a1ebf7b008c6a02bcce0a86f01370d14"
     },
     {
       "path": "app/lib/version.js",
@@ -2479,9 +2457,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/users/account/user_account.js?dfe0279bed69318f3891f03d6366e54412aa03ea",
-      "size": 3258,
-      "hash": "dfe0279bed69318f3891f03d6366e54412aa03ea"
+      "url": "/client/views/users/account/user_account.js?4e6c852c45a85817ae4c1da24cb9b96d18f46440",
+      "size": 3538,
+      "hash": "4e6c852c45a85817ae4c1da24cb9b96d18f46440"
     },
     {
       "path": "app/client/views/users/dashboard/users-dashboard.js",
@@ -2524,9 +2502,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/users/profile/user_info.js?3ce2dff72aefd4348c3ff4aff219636d76da2894",
-      "size": 1011,
-      "hash": "3ce2dff72aefd4348c3ff4aff219636d76da2894"
+      "url": "/client/views/users/profile/user_info.js?39d8805b37ce53b01dc047d7b1b3dd4ad8050058",
+      "size": 1153,
+      "hash": "39d8805b37ce53b01dc047d7b1b3dd4ad8050058"
     },
     {
       "path": "app/client/views/users/profile/user_posts.js",
@@ -2866,9 +2844,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/collections/posts.js?3775247f0ef8ef3a5bd873d03577542d1a208c9d",
-      "size": 16368,
-      "hash": "3775247f0ef8ef3a5bd873d03577542d1a208c9d"
+      "url": "/collections/posts.js?6cbd54d21406b27e3d607b624725597c30a3618d",
+      "size": 17294,
+      "hash": "6cbd54d21406b27e3d607b624725597c30a3618d"
     },
     {
       "path": "app/collections/users.js",
@@ -2884,9 +2862,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/i18n/en.i18n.js?6261178a44fe6dbe61d967d1e6d95da6aac0a529",
-      "size": 10461,
-      "hash": "6261178a44fe6dbe61d967d1e6d95da6aac0a529"
+      "url": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/i18n/en.i18n.js?6707d68b31a935598e212d0e12417d8ff37b48c7",
+      "size": 10469,
+      "hash": "6707d68b31a935598e212d0e12417d8ff37b48c7"
     },
     {
       "path": "app/project-i18n.js",
@@ -2907,15 +2885,15 @@
       "hash": "935d565085b76e81193220d7f6e725d0637bee8e"
     },
     {
-      "path": "8d882db7556eb61766cc16224a7441cd72d9a8b8.css",
+      "path": "cca9cc411fa449bdc26162ae590680bb96536eb1.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/8d882db7556eb61766cc16224a7441cd72d9a8b8.css",
-      "sourceMap": "8d882db7556eb61766cc16224a7441cd72d9a8b8.css.map",
-      "sourceMapUrl": "/8d882db7556eb61766cc16224a7441cd72d9a8b8.map",
-      "size": 342670,
-      "hash": "8d882db7556eb61766cc16224a7441cd72d9a8b8"
+      "url": "/cca9cc411fa449bdc26162ae590680bb96536eb1.css",
+      "sourceMap": "cca9cc411fa449bdc26162ae590680bb96536eb1.css.map",
+      "sourceMapUrl": "/cca9cc411fa449bdc26162ae590680bb96536eb1.map",
+      "size": 328295,
+      "hash": "cca9cc411fa449bdc26162ae590680bb96536eb1"
     },
     {
       "path": "packages/bengott_avatar/default.png",

@@ -46,6 +46,26 @@ Template["userInfo"] = new Template("Template.userInfo", (function() {
       return Spacebars.mustache(view.lookup("getTwitterName"));
     }))), "\n        "), "\n      " ];
   }), "\n      ", Blaze.If(function() {
+    return Spacebars.call(view.lookup("getDribbbleName"));
+  }, function() {
+    return [ "\n        ", HTML.TR("\n          ", HTML.TD("Dribbble: "), "\n          ", HTML.TD(HTML.A({
+      href: function() {
+        return [ "http://dribbble.com/", Spacebars.mustache(view.lookup("getDribbbleName")) ];
+      }
+    }, Blaze.View("lookup:getDribbbleName", function() {
+      return Spacebars.mustache(view.lookup("getDribbbleName"));
+    }))), "\n        "), "\n      " ];
+  }), "\n      ", Blaze.If(function() {
+    return Spacebars.call(view.lookup("getBehanceName"));
+  }, function() {
+    return [ "\n        ", HTML.TR("\n          ", HTML.TD("Twitter: "), "\n          ", HTML.TD(HTML.A({
+      href: function() {
+        return [ "http://bahance.com/", Spacebars.mustache(view.lookup("getBehanceName")) ];
+      }
+    }, Blaze.View("lookup:getBehanceName", function() {
+      return Spacebars.mustache(view.lookup("getBehanceName"));
+    }))), "\n        "), "\n      " ];
+  }), "\n      ", Blaze.If(function() {
     return Spacebars.call(view.lookup("getGitHubName"));
   }, function() {
     return [ "\n        ", HTML.TR("\n          ", HTML.TD(Blaze.View("lookup:_", function() {

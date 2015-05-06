@@ -6,14 +6,14 @@ Template["postInfo"] = new Template("Template.postInfo", (function() {
     "class": "post-meta-item",
     "aria-live": "off"
   }, "\n    ", HTML.SPAN({
-    "class": "points"
-  }, Blaze.View("lookup:baseScore", function() {
-    return Spacebars.mustache(view.lookup("baseScore"));
+    "class": "startdatum"
+  }, Blaze.View("lookup:start", function() {
+    return Spacebars.mustache(view.lookup("start"));
   })), "\n    ", HTML.SPAN({
-    "class": "unit"
-  }, Blaze.View("lookup:pointsUnitDisplayText", function() {
-    return Spacebars.mustache(view.lookup("pointsUnitDisplayText"));
-  })), "\n    ", Blaze.If(function() {
+    "class": "einddatum"
+  }, " ", Blaze.View("lookup:end", function() {
+    return Spacebars.mustache(view.lookup("end"));
+  })), HTML.Raw('\n    <!-- <span class="points">{{baseScore}}</span> -->\n    <!-- <span class="unit">{{pointsUnitDisplayText}}</span> -->\n    '), Blaze.If(function() {
     return Spacebars.call(view.lookup("postedAt"));
   }, function() {
     return HTML.SPAN({

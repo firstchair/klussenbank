@@ -11,6 +11,12 @@
   getTwitter: function(){
     return getTwitterName(this) || "";
   },
+  getDribbble: function(){
+    return getDribbbleName(this) || "";
+  },
+  getBehance: function(){
+    return getBehanceName(this) || "";
+  },
   getGitHub: function(){
     return getGitHubName(this) || "";
   },
@@ -53,6 +59,8 @@ Template[getTemplate('userAccount')].events({
       "profile.city": $target.find('[name=city]').val(),
       "profile.email": email,
       "profile.twitter": $target.find('[name=twitter]').val(),
+      "profile.dribbble": $target.find('[name=dribbble]').val(),
+      "profile.behance": $target.find('[name=behance]').val(),
       "profile.github": $target.find('[name=github]').val(),
       "profile.site": $target.find('[name=site]').val(),
       "profile.notifications.users": $('input[name=notifications_users]:checked').length, // only actually used for admins
@@ -82,7 +90,9 @@ Template[getTemplate('userAccount')].events({
       if(error){
         Messages.flash(error.reason, "error");
       } else {
-        Messages.flash(i18n.t('profile_updated'), 'success');
+        Messages.flash(i18n.t('profile_updated'),
+
+         'success');
       }
       Deps.afterFlush(function() {
         var element = $('.grid > .error');

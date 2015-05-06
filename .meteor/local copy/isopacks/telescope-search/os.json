@@ -50,7 +50,7 @@
     {
       "type": "asset",
       "file": "os/packages/telescope-search/i18n/en.i18n.json",
-      "length": 161,
+      "length": 154,
       "offset": 0,
       "servePath": "/packages/telescope-search/i18n/en.i18n.json",
       "path": "i18n/en.i18n.json"

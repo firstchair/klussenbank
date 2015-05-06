@@ -142,25 +142,25 @@ userMenu = [                                                                    
       return Router.path('user_profile', {_idOrSlug: Meteor.user().slug});                                        // 134
     },                                                                                                            // 135
     label: 'profile',                                                                                             // 136
-    description: 'view_your_profile'                                                                              // 137
+    // description: 'view_your_profile'                                                                           // 137
   },                                                                                                              // 138
   {                                                                                                               // 139
     route: function () {                                                                                          // 140
       return Router.path('user_edit', {slug: Meteor.user().slug});                                                // 141
     },                                                                                                            // 142
     label: 'edit_account',                                                                                        // 143
-    description: 'edit_your_profile'                                                                              // 144
+    // description: 'edit_your_profile'                                                                           // 144
   },                                                                                                              // 145
   {                                                                                                               // 146
     route: 'settings',                                                                                            // 147
     label: 'settings',                                                                                            // 148
-    description: 'settings',                                                                                      // 149
+    // description: 'settings',                                                                                   // 149
     adminOnly: true                                                                                               // 150
   },                                                                                                              // 151
   {                                                                                                               // 152
     route: 'signOut',                                                                                             // 153
     label: 'sign_out',                                                                                            // 154
-    description: 'sign_out'                                                                                       // 155
+    // description: 'sign_out'                                                                                    // 155
   }                                                                                                               // 156
 ];                                                                                                                // 157
 // ------------------------------------- Views -------------------------------- //                                // 158
@@ -362,14 +362,14 @@ userProfileDisplay = [                                                          
     template: 'userPosts',                                                                                        // 354
     order: 2                                                                                                      // 355
   },                                                                                                              // 356
-  {                                                                                                               // 357
-    template: 'userUpvotedPosts',                                                                                 // 358
-    order: 3                                                                                                      // 359
-  },                                                                                                              // 360
-  {                                                                                                               // 361
-    template: 'userDownvotedPosts',                                                                               // 362
-    order: 5                                                                                                      // 363
-  },                                                                                                              // 364
+  // {                                                                                                            // 357
+  //   template: 'userUpvotedPosts',                                                                              // 358
+  //   order: 3                                                                                                   // 359
+  // },                                                                                                           // 360
+  // {                                                                                                            // 361
+  //   template: 'userDownvotedPosts',                                                                            // 362
+  //   order: 5                                                                                                   // 363
+  // },                                                                                                           // 364
   {                                                                                                               // 365
     template: 'userComments',                                                                                     // 366
     order: 5                                                                                                      // 367

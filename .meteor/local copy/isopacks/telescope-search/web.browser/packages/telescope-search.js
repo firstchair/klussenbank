@@ -445,7 +445,7 @@ if (package_name != "project") {                                                
 }                                                                                                                      // 7
 // integrate the fallback language translations                                                                        // 8
 translations = {};                                                                                                     // 9
-translations[namespace] = {"load_more":"Load more","search":"Search","search_logs":"Search Logs","see_what_people_are_searching_for":"See what people are searching for."};
+translations[namespace] = {"load_more":"Laad meer","search":"Zoeken","search_logs":"Zoeklog","see_what_people_are_searching_for":"Zie waar gebruikers op zoeken."};
 TAPi18n._loadLangFileObject("en", translations);                                                                       // 11
                                                                                                                        // 12
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

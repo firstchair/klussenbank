@@ -72,7 +72,7 @@
     {
       "type": "prelink",
       "file": "os/packages/telescope-tags.js",
-      "length": 42966,
+      "length": 25741,
       "offset": 0,
       "servePath": "/packages/telescope-tags.js",
       "sourceMap": "os/packages/telescope-tags.js.map"

@@ -614,168 +614,18 @@ var _ = Package.underscore._,                                                   
 if (package_name != "project") {                                                                                 // 5
     namespace = TAPi18n.packages[package_name].namespace;                                                        // 6
 }                                                                                                                // 7
-var package_templates = _.difference(_.keys(Template), non_package_templates);                                   // 8
-                                                                                                                 // 9
-for (var i = 0; i < package_templates.length; i++) {                                                             // 10
-  var package_template = package_templates[i];                                                                   // 11
-                                                                                                                 // 12
-  registerI18nTemplate(package_template);                                                                        // 13
-}                                                                                                                // 14
-                                                                                                                 // 15
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-}).call(this);
-
-
-
-
-
-
-(function () {
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                               //
-// packages/telescope-tags/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/te //
-//                                                                                                               //
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                 //
-var _ = Package.underscore._,                                                                                    // 1
-    package_name = "telescope-tags",                                                                             // 2
-    namespace = "telescope-tags";                                                                                // 3
-                                                                                                                 // 4
-if (package_name != "project") {                                                                                 // 5
-    namespace = TAPi18n.packages[package_name].namespace;                                                        // 6
-}                                                                                                                // 7
-                                                                                                                 // 8
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-}).call(this);
-
-
-
-
-
-
-(function () {
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                               //
-// packages/telescope-tags/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/te //
-//                                                                                                               //
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                 //
-var _ = Package.underscore._,                                                                                    // 1
-    package_name = "telescope-tags",                                                                             // 2
-    namespace = "telescope-tags";                                                                                // 3
-                                                                                                                 // 4
-if (package_name != "project") {                                                                                 // 5
-    namespace = TAPi18n.packages[package_name].namespace;                                                        // 6
-}                                                                                                                // 7
 // integrate the fallback language translations                                                                  // 8
 translations = {};                                                                                               // 9
-translations[namespace] = {"categories":"Categories","add_and_remove_categories":"Add and remove categories.","all_categories":"All","invalid_category":"Sorry, this is not a valid category"};
+translations[namespace] = {"categories":"Categoriën","add_and_remove_categories":"Voeg toe en verwijderen categoriën.","all_categories":"Alle categoriën","invalid_category":"Sorry, dit is geen geldige categorie."};
 TAPi18n._loadLangFileObject("en", translations);                                                                 // 11
-                                                                                                                 // 12
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-}).call(this);
-
-
-
-
-
-
-(function () {
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                               //
-// packages/telescope-tags/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/te //
-//                                                                                                               //
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                 //
-var _ = Package.underscore._,                                                                                    // 1
-    package_name = "telescope-tags",                                                                             // 2
-    namespace = "telescope-tags";                                                                                // 3
-                                                                                                                 // 4
-if (package_name != "project") {                                                                                 // 5
-    namespace = TAPi18n.packages[package_name].namespace;                                                        // 6
-}                                                                                                                // 7
-                                                                                                                 // 8
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-}).call(this);
-
-
-
-
-
-
-(function () {
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                               //
-// packages/telescope-tags/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/te //
-//                                                                                                               //
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                 //
-var _ = Package.underscore._,                                                                                    // 1
-    package_name = "telescope-tags",                                                                             // 2
-    namespace = "telescope-tags";                                                                                // 3
-                                                                                                                 // 4
-if (package_name != "project") {                                                                                 // 5
-    namespace = TAPi18n.packages[package_name].namespace;                                                        // 6
-}                                                                                                                // 7
-                                                                                                                 // 8
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-}).call(this);
-
-
-
-
-
-
-(function () {
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                               //
-// packages/telescope-tags/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/te //
-//                                                                                                               //
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                 //
-var _ = Package.underscore._,                                                                                    // 1
-    package_name = "telescope-tags",                                                                             // 2
-    namespace = "telescope-tags";                                                                                // 3
-                                                                                                                 // 4
-if (package_name != "project") {                                                                                 // 5
-    namespace = TAPi18n.packages[package_name].namespace;                                                        // 6
-}                                                                                                                // 7
-                                                                                                                 // 8
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-}).call(this);
-
-
-
-
-
-
-(function () {
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                               //
-// packages/telescope-tags/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/te //
-//                                                                                                               //
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                 //
-var _ = Package.underscore._,                                                                                    // 1
-    package_name = "telescope-tags",                                                                             // 2
-    namespace = "telescope-tags";                                                                                // 3
-                                                                                                                 // 4
-if (package_name != "project") {                                                                                 // 5
-    namespace = TAPi18n.packages[package_name].namespace;                                                        // 6
-}                                                                                                                // 7
-                                                                                                                 // 8
+var package_templates = _.difference(_.keys(Template), non_package_templates);                                   // 12
+                                                                                                                 // 13
+for (var i = 0; i < package_templates.length; i++) {                                                             // 14
+  var package_template = package_templates[i];                                                                   // 15
+                                                                                                                 // 16
+  registerI18nTemplate(package_template);                                                                        // 17
+}                                                                                                                // 18
+                                                                                                                 // 19
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }).call(this);

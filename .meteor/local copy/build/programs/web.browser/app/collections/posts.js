@@ -26,14 +26,14 @@ postSchemaObject = {
       type: "bootstrap-datetimepicker"
     }
   },
-  url: {
-    type: String,
-    optional: true,
-    autoform: {
-      editable: true,
-      type: "bootstrap-url"
-    }
-  },
+  // url: {
+  //   type: String,
+  //   optional: true,
+  //   autoform: {
+  //     editable: true,
+  //     type: "bootstrap-url"
+  //   }
+  // },
   title: {
     type: String,
     optional: false,
@@ -41,12 +41,56 @@ postSchemaObject = {
       editable: true
     }
   },
+  shortdescription: {
+    type: String,
+    optional: false,
+    label: "Korte beschrijving",
+    max: 50,
+    autoform: {
+      type: "textarea",
+    }
+  },
   body: {
     type: String,
-    optional: true,
+    optional: false,
     autoform: {
       editable: true,
       rows: 5
+    }
+  },
+  // inschrijfdatum: {
+  //   type: Date,
+  //   optional: true,
+  //   label: "Korte beschrijving",
+  //   autoform: {
+  //     type: "bootstrap-datetimepicker",
+  //     class: "date-form"
+  //   }
+  // },
+  start: {
+    type: Date,
+    optional: true,
+    label: "Begindatum project",
+    autoform: {
+      type: "bootstrap-datetimepicker",
+      class: "date-form"
+    }
+  },
+  end: {
+    type: Date,
+    optional: true,
+    label: "Einddatum project",
+    autoform: {
+      type: "bootstrap-datetimepicker",
+      class: "date-form"
+    }
+  },
+  voorwaarden: {
+    type: String,
+    optional: false,
+    label: "Algemene voorwaarden",
+    autoform: {
+      type: "boolean-checkbox"
     }
   },
   htmlBody: {
@@ -389,7 +433,7 @@ Meteor.methods({
     // optional properties
     // URL
     // body
-    // categories
+    //
     // thumbnailUrl
 
     // NOTE: the current user and the post author user might be two different users!
@@ -538,7 +582,7 @@ Meteor.methods({
       }
 
     }else{
-      Messages.flash('You need to be an admin to do that.', "error");
+      Messages.flash('Je moet beheerder zijn om deze actie uit te voeren.', "error");
     }
   },
 
@@ -546,7 +590,7 @@ Meteor.methods({
     if(isAdmin(Meteor.user())){
       Posts.update(post._id, {$set: {status: 1}});
     }else{
-      Messages.flash('You need to be an admin to do that.', "error");
+      Messages.flash('Je moet beheerder zijn om deze actie uit te voeren.', "error");
     }
   },
 
@@ -571,7 +615,7 @@ Meteor.methods({
 
     var post = Posts.findOne({_id: postId});
 
-    if(!Meteor.userId() || !can.editById(Meteor.userId(), post)) throw new Meteor.Error(606, 'You need permission to edit or delete a post');
+    if(!Meteor.userId() || !can.editById(Meteor.userId(), post)) throw new Meteor.Error(606, 'Je bent niet gerechtigd om projecten aan te passen of te verwijderen');
 
     // decrement post count
     Meteor.users.update({_id: post.userId}, {$inc: {postCount: -1}});

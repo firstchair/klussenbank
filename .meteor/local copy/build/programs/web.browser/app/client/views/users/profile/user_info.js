@@ -16,6 +16,12 @@
   getTwitterName: function () {
     return getTwitterName(this);
   },
+  getDribbbleName: function () {
+    return getDribbbleName(this);
+  },
+  getBehanceName: function () {
+    return getBehanceName(this);
+  },
   getGitHubName: function () {
     return getGitHubName(this);
   }

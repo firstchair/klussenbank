@@ -650,11 +650,6 @@
       "path": "packages/telescope-email.js"
     },
     {
-      "sourceMap": "packages/telescope-embedly.js.map",
-      "sourceMapRoot": "packages",
-      "path": "packages/telescope-embedly.js"
-    },
-    {
       "node_modules": "npm/miro_mailchimp/node_modules",
       "sourceMap": "packages/miro_mailchimp.js.map",
       "sourceMapRoot": "packages",
@@ -721,11 +716,6 @@
       "sourceMap": "packages/telescope-notifications.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/telescope-notifications.js"
-    },
-    {
-      "sourceMap": "packages/telescope-invites.js.map",
-      "sourceMapRoot": "packages",
-      "path": "packages/telescope-invites.js"
     },
     {
       "node_modules": "npm/aldeed_http/node_modules",
