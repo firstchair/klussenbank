@@ -1,10 +1,7 @@
 <template name="postInfo">
-  <div class="test">
-    {{shortdescription}}
-    {{start}}
-    {{end}}
-  </div>
   <div class="post-meta-item" aria-live="off">
+    <span class="startdatum">{{start}}</span>
+    <span class="einddatum"> {{end}}</span>
     <!-- <span class="points">{{baseScore}}</span> -->
     <!-- <span class="unit">{{pointsUnitDisplayText}}</span> -->
     {{#if postedAt}}<span class="post-time">{{timeAgo postedAt}}</span>{{/if}}
